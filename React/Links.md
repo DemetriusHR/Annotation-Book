@@ -17,3 +17,9 @@ React for Beginners: https://reactforbeginners.com/ <br/>
 
 React in 30 Days:
 https://www.fullstackreact.com/30-days-of-react/ <br/>
+
+React and Ecosistems: 
+https://medium.com/tableless/o-guia-completo-do-react-e-o-seu-ecossistema-b31a10ecd84f <br/>
+
+React and Data "externa":
+https://css-tricks.com/managing-state-in-react-with-unstated/ <br/>
