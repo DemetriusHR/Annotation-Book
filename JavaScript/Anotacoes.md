@@ -11,3 +11,17 @@ ex:
 with(obj){ a = 5; }
 `````
 não se é recomendado utilizar nenhum dos dois anteriores, pois esses afetam no desempenho do script.
+
+Zero é False
+
+````
+!!0  \\false
+````
+
+`````
+!!1  \\true
+`````
+
+`````
+!!999 \\true
+`````
