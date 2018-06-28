@@ -20,3 +20,19 @@ Style Componentizado(styled-component)
 ````
 npm install --save styled-components
 ````
+
+ESLint AirBnB
+````
+npm i eslint-config-airbnb
+````
+
+## Métodos que deixam de existir
+
+- componentWillMount
+- componentWillReceiveProps
+- componentWillUpdate
+
+## Módulos novos
+
+- getDerivedStateFromProps
+- getSnapshotBeforeUpdate
