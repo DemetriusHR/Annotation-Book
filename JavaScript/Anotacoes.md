@@ -26,6 +26,12 @@ Zero é False
 !!999 \\true
 `````
 
+````
+1+2 === 3 \\true
+
+0.1+0.2 === 0.3 \\false
+````
+
 ## Desestruturação
 
 Pode-se destruturar objetos e vetores
@@ -94,8 +100,36 @@ export default class App {
 
 Index.js
 ````
-import * as helpers from 'App';
+import helpers from 'App';
 
 helpers.soma(1, 3); // 4
 console.log(helpers.user.nome); // Diego
 ````
+## Arrays Management
+
+````
+const original = { a: 1, b: 2 }; \\ Object { a: 1, b: 2 }
+
+const copy = { ...original, c: 3 }; \\ Object { a: 1, b: 2, c: 3 }
+
+const { a, ...noA } = copied; \\ Object { b: 2, c: 3 }
+````
+
+````
+// bad
+const foo = a ? a : b;
+const bar = c ? true : false;
+const baz = c ? false : true;
+
+// good
+const foo = a || b;
+const bar = !!c;
+const baz = !c;
+````
+
+## Operadores Matemáticos
+
+````
+2 ** 2
+````
+** é uma potencialização, onde o numero antes do ** é o potencializado e o após é o expoente
